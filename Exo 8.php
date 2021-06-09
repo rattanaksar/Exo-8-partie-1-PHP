@@ -1,3 +1,8 @@
+<?php
+       $x = 3 + 4;
+       $y = 5 * 20;
+       $a = 45 / 5;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,15 +13,14 @@
 </head>
 <body>
     <h1>Exo 8 Partie : Les variables PHP</h1>
-    <?php
-       $x = 3 + 4;
-       $y = 5 * 20;
-       $a = 45 / 5;
-       echo $x;
-       echo "<br>";
-       echo $y;
-       echo "<br>";
-       echo $a;
-    ?>
+    <p>
+       <?=$x;?>
+    </p>
+    <p>
+       <?=$y;?>
+    </p>
+    <p>
+       <?=$a;?>
+    </p>
 </body>
 </html>
