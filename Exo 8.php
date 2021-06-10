@@ -1,7 +1,7 @@
 <?php
        $x = 3 + 4;
-       $y = 5 * 20;
-       $a = 45 / 5;
+       $product = 5 * 20;
+       $quotient = 45 / 5;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -13,14 +13,9 @@
 </head>
 <body>
     <h1>Exo 8 Partie : Les variables PHP</h1>
-    <p>
-       <?=$x;?>
-    </p>
-    <p>
-       <?=$y;?>
-    </p>
-    <p>
-       <?=$a;?>
+    <p> 3 + 4 <?=$sum?></p>
+    <p> 5 * 20 <?=$product?></p>
+    <p> 45 / 5 <?=$quotient?>
     </p>
 </body>
 </html>
